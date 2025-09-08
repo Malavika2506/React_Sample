@@ -1,0 +1,55 @@
+.thirdslide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 8rem;
+  background-color: #f9f9f9; /* light background */
+  min-height: 100vh;
+}
+
+.thirdslide-content {
+  max-width: 50%;
+}
+
+.thirdslide-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d87d04;
+  margin-bottom: 0.5rem;
+}
+
+.thirdslide-content .subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.thirdslide-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.btn-view {
+  background: none;
+  border: 2px solid #d87d04;
+  color: #d87d04;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-view:hover {
+  background: #d87d04;
+  color: white;
+}
+
+.thirdslide-image img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

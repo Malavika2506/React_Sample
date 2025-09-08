@@ -1,0 +1,44 @@
+.navbar-custom {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+.navbar-custom .nav-link{
+  color: #d87d04; /* Orange color */
+  font-weight: 600;
+  margin: 0 0.75rem;
+  text-decoration: none; /* remove default underline */
+}
+
+.active-link {
+ color: #d87d04;
+  border-bottom: 2px solid #d87d04; /* underline effect */
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-custom .navbar-brand img {
+  margin-right: 0.5rem;
+  height: 24px;
+  width: 24px;
+}
+
+.btn-signup {
+  background-color: #d87d04;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.375rem 1.25rem;
+  font-weight: 600;
+}
+
+.btn-signup:hover {
+  background-color: #bb6f03;
+  color: white;
+}
+
+

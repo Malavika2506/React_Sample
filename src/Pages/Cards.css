@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928DAB);
+  color: #f5f5f5;
+}
+
+.heading {
+  color: #00ffcc;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.paragraph {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #f5f5f5;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.cardsection {
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #2c2f33;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  color: #00d8ff; /* React blue */
+  font-weight: bold;
+}
+
+.card-text {
+  color: #e0e0e0;
+}
