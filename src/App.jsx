@@ -12,23 +12,25 @@ import Home from "./Pages/Home";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Secondslide from "./Pages/Secondslide";
 import Thirdslide from "./Pages/Thirdslide";
+import Sampleusestate from "./Pages/Sampleusestate";
+import Sampleuseffect from "./Pages/Sampleuseffect";
+import UseEffectProblems from "./Pages/UseEffectProblems";
 
 function App() {
- return (
-  <>
-    <Router>
-            <Navbar />
-      
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/designers" element={<Secondslide />} />
-        <Route path="/Trends" element={<Thirdslide />} />
-        <Route path="/Blog" element={<Thirdslide />} />
-        <Route path="/About" element={<Thirdslide />} />
-      </Routes>
-    </Router>
-  </>
-);
+  return (
+    <>
+      <Router>
+        <Navbar />
 
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/designers" element={<Secondslide />} />
+          <Route path="/Trends" element={<Thirdslide />} />
+          <Route path="/Blog" element={<Sampleusestate />} />
+          <Route path="/About" element={<Sampleuseffect />} />
+        </Routes>
+      </Router>
+    </>
+  );
 }
 export default App;
