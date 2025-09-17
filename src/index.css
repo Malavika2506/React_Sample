@@ -4,12 +4,12 @@ html, body {
   padding: 0;
 }
 
-/* body {
-  background: linear-gradient(135deg, rgba(156, 107, 129, 1) 0%, rgba(71, 79, 89, 1) 100%);
+body {
+  background: linear-gradient(135deg, rgb(172, 255, 234) 0%, rgb(226, 122, 250) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-family: 'Segoe UI', sans-serif; 
   color: white;
-} */
+}
 

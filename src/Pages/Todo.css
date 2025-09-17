@@ -1,0 +1,90 @@
+.entiretodostructure {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-family: Arial, sans-serif;
+}
+
+.todo-container {
+  width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.addtaskbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  flex: 1;
+  height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.plusicon {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.listoftask ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listoftask li {
+  background-color: #f0f8ff;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listoftask li.completed {
+  text-decoration: line-through;
+  color: green;
+  background-color: #eaffea; /* light green background */
+}
+
+.listoftask li.incomplete {
+  color: red;
+  background-color: #ffeaea; /* light red background */
+}
+
+
+.actions button {
+  margin-left: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.actions .compbtn {
+  color: #4caf50;
+}
+
+.actions .deletebtn {
+  color: red;
+}

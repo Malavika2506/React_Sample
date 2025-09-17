@@ -6,20 +6,28 @@ import "./App.css";
 // import ShoppingList from './Pages/ShoppingList';
 // import Movie from './Pages/Movie';
 // import Table from "./Pages/Table";
-import Navbar from "./Pages/Navbar";
+// import Navbar from "./Pages/Navbar";
 // import Counter from './Pages/Counter';
-import Home from "./Pages/Home";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Secondslide from "./Pages/Secondslide";
-import Thirdslide from "./Pages/Thirdslide";
-import Sampleusestate from "./Pages/Sampleusestate";
-import Sampleuseffect from "./Pages/Sampleuseffect";
-import UseEffectProblems from "./Pages/UseEffectProblems";
+// import Home from "./Pages/Home";
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// import Secondslide from "./Pages/Secondslide";
+// import Thirdslide from "./Pages/Thirdslide";
+// import Sampleusestate from "./Pages/Sampleusestate";
+// import Sampleuseffect from "./Pages/Sampleuseffect";
+// import UseEffectProblems from "./Pages/UseEffectProblems";
+// import FruitOptimizer from "./Pages/FruitOptimizer";
+import Todo from "./Pages/Todo";
 
 function App() {
   return (
     <>
-      <Router>
+
+    <Todo />
+
+    {/* <FruitOptimizer /> */}
+
+
+      {/* <Router>
         <Navbar />
 
         <Routes>
@@ -29,7 +37,7 @@ function App() {
           <Route path="/Blog" element={<Sampleusestate />} />
           <Route path="/About" element={<Sampleuseffect />} />
         </Routes>
-      </Router>
+      </Router> */}
     </>
   );
 }
